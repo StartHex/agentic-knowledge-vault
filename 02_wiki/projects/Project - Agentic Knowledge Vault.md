@@ -41,6 +41,7 @@ tags: [project, knowledge-base, obsidian, codex]
 - [[Concept - Headless Agent Mode]]
 - [[Concept - Multi-Agent Vault Protocol]]
 - [[Conversation Capture Workflow]]
+- [[How Should Agent Changes Be Synchronized]]
 - [[Source - Conversation - Agentic Knowledge Vault Setup 2026-05-28]]
 
 ## Next Steps

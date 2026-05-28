@@ -17,6 +17,7 @@
 
 - [[Automatic Conversation Capture]]
 - [[Conversation Capture Workflow]]
+- [[How Should Agent Changes Be Synchronized]]
 
 ## Syntheses
 
