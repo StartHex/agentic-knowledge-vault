@@ -40,6 +40,15 @@ bash -n 05_tools/webdav_*.sh
 
 Use `05_tools/webdav_push.sh` only when the local Linux copy should overwrite matching files on WebDAV.
 
+For full sync validation:
+
+```bash
+bash -n 05_tools/sync_all.sh
+05_tools/sync_all.sh
+```
+
+Then verify GitHub, WebDAV, and Mac all contain the latest changed files.
+
 ## Obsidian Checks
 
 On Mac or Windows:

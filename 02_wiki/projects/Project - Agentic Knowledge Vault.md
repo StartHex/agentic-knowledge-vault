@@ -49,3 +49,6 @@ tags: [project, knowledge-base, obsidian, codex]
 - Decide whether conversation capture should be manual or automatic.
 - Test daily WebDAV workflow on Mac and Windows.
 
+## Operating Preferences
+
+- After repository changes, sync GitHub, WebDAV, and the Mac deployment, not GitHub alone.

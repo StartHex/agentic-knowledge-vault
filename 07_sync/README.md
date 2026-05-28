@@ -36,6 +36,7 @@ Then fill `.webdav.env` locally. The file is ignored by Git and must not be comm
 ## Built-In Scripts
 
 ```bash
+05_tools/sync_all.sh
 05_tools/webdav_list.sh
 05_tools/webdav_push.sh
 ```
@@ -46,3 +47,15 @@ Requirements:
 
 - `curl`
 - `jq`
+
+## Mac Sync
+
+Use:
+
+```bash
+cp 07_sync/mac.env.example .mac.env
+```
+
+Then fill `.mac.env` locally. The file is ignored by Git and must not be committed.
+
+`05_tools/sync_all.sh` is the preferred command after repository changes. It pushes Git, uploads WebDAV, and deploys the working tree to the configured Mac vault path.

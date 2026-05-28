@@ -76,6 +76,16 @@ $EDITOR .webdav.env
 
 The upload script requires `curl` and `jq`. `jq` is used to URL-encode Obsidian filenames that contain spaces.
 
+For Mac deployment:
+
+```bash
+cp 07_sync/mac.env.example .mac.env
+$EDITOR .mac.env
+05_tools/sync_all.sh
+```
+
+After changes, prefer `05_tools/sync_all.sh` so GitHub, WebDAV, and Mac stay aligned.
+
 ## 5. Linux Server Setup
 
 The Linux server should start as a read-only or low-risk maintenance node.

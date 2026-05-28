@@ -13,6 +13,7 @@ desktop.ini
 
 .env
 .webdav.env
+.mac.env
 
 private/
 restricted/
