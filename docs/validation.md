@@ -27,6 +27,17 @@ After configuring WebDAV:
 5. Edit it on Windows only after Mac sync has completed.
 6. Record any conflict in `07_sync/conflict-log.md`.
 
+For the built-in WebDAV scripts:
+
+```bash
+cp 07_sync/webdav.env.example .webdav.env
+$EDITOR .webdav.env
+bash -n 05_tools/webdav_*.sh
+05_tools/webdav_list.sh
+```
+
+Use `05_tools/webdav_push.sh` only when the local Linux copy should overwrite matching files on WebDAV.
+
 ## Obsidian Checks
 
 On Mac or Windows:
@@ -49,4 +60,3 @@ Before bulk edits:
 6. Write a run note under `06_agent_state/runs/`.
 7. Remove the lock.
 8. Review `git diff`.
-

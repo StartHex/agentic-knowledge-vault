@@ -63,6 +63,17 @@ Rules:
 - Do not sync `.git/` through WebDAV.
 - If your WebDAV client cannot exclude `.git/`, keep Git outside the synced folder or use Linux snapshots.
 
+This repository provides minimal `curl`-based WebDAV tools:
+
+```bash
+cp 07_sync/webdav.env.example .webdav.env
+$EDITOR .webdav.env
+05_tools/webdav_list.sh
+05_tools/webdav_push.sh
+```
+
+`.webdav.env` is intentionally ignored by Git.
+
 ## 5. Linux Server Setup
 
 The Linux server should start as a read-only or low-risk maintenance node.
@@ -73,6 +84,8 @@ Recommended first tasks:
 - run `05_tools/lint_links.sh`
 - create Git snapshots
 - generate weekly reports
+
+If `rclone` is unavailable, use `05_tools/webdav_push.sh` for one-way upload from the Linux working copy to WebDAV. Treat this as a deployment action, not conflict-aware bidirectional sync.
 
 Only enable bulk agent edits after Mac/Windows/WebDAV sync is stable.
 
@@ -86,4 +99,3 @@ target vault path, for example ~/Documents/KnowledgeVault
 ```
 
 With SSH access, agent-side work can copy files, update Obsidian config, and install plugin files. Visual UI testing still requires manual review or a GUI automation channel.
-

@@ -11,6 +11,8 @@ desktop.ini
 *.bak
 *.conflict*
 
+.env
+.webdav.env
+
 private/
 restricted/
-
