@@ -7,3 +7,5 @@
 - Added [[Automatic Conversation Capture]] as the default policy for meaningful agent sessions.
 - Added the operating preference that repository changes should sync to GitHub, WebDAV, and Mac together.
 - Fixed WebDAV upload exclusions so local environment files are not uploaded.
+- Hermes 接入知识库（[[hermes-vault-setup-2026-05-28]]）: 清理旧 memory-os 系统，新建 agentic-knowledge-vault 技能，确认工作规则。
+- Reviewed the Hermes auto-capture test and pulled the Mac-side result back into Git-managed history.

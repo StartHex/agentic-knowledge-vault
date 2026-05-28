@@ -20,6 +20,8 @@
 
 ## Syntheses
 
+- [[hermes-vault-setup-2026-05-28]] — Hermes Agent 接入知识库的配置记录
+
 ## Source Notes
 
 - [[Source - Conversation - Agentic Knowledge Vault Setup 2026-05-28]]
