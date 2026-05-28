@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+*.tmp
+*.temp
+*.bak
+*.conflict*
+
+private/
+restricted/
+

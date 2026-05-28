@@ -1,0 +1,8 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_inbox",
+  "attachmentFolderPath": "01_raw/assets",
+  "showUnsupportedFiles": true
+}
+
