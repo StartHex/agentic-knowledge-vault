@@ -42,11 +42,31 @@ If the command is unavailable, install the tool first or fix the shell `PATH`.
 
 ## Recommended First Prompt
 
-Use this when starting a new agent in the vault:
+Use the reusable handoff prompt:
+
+```text
+04_prompts/agent-handoff.md
+```
+
+Short version:
 
 ```text
 Read AGENTS.md and 02_wiki/index.md first. Operate as an editor agent. Do not delete pages. Before bulk edits, create a lock under 06_agent_state/locks/. After the task, update 02_wiki/log.md and write a run note under 06_agent_state/runs/.
 ```
+
+## Directory vs Skill
+
+Start with the directory and handoff prompt.
+
+Give the agent this directory:
+
+```text
+/Users/shx/Documents/Obsidian Vault/agentic-knowledge-vault
+```
+
+Then ask it to read `AGENTS.md` and its adapter file.
+
+A skill is useful later, after the workflow is stable and you want the same behavior across many unrelated projects. For this vault, the repo itself already contains the operating protocol, so a separate skill is optional rather than required.
 
 ## Role Defaults
 
@@ -111,4 +131,3 @@ command -v claude
 command -v hermes
 command -v openclaw
 ```
-
