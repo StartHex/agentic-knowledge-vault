@@ -68,6 +68,25 @@ Then ask it to read `AGENTS.md` and its adapter file.
 
 A skill is useful later, after the workflow is stable and you want the same behavior across many unrelated projects. For this vault, the repo itself already contains the operating protocol, so a separate skill is optional rather than required.
 
+## Auto-Capture
+
+Agents should follow the default auto-capture policy in `AGENTS.md`.
+
+Meaningful sessions should be summarized into the vault before the agent finishes. This is a concise memory layer, not a verbatim transcript.
+
+Do not capture:
+
+- secrets
+- credentials
+- trivial status checks
+- off-record content
+
+Reusable prompt:
+
+```text
+04_prompts/auto-capture-session.md
+```
+
 ## Role Defaults
 
 Reader:

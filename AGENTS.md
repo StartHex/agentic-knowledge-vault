@@ -50,6 +50,36 @@ Use this when the human asks to remember, capture, archive, or ingest an agent c
 7. Update `02_wiki/index.md`.
 8. Append one log entry to `02_wiki/log.md`.
 
+## Default Auto-Capture Policy
+
+At the end of every meaningful agent session in this vault, perform a lightweight conversation capture unless the human says not to.
+
+Auto-capture applies when the session includes:
+
+- architecture or design decisions
+- setup or deployment changes
+- new workflows or operating rules
+- source ingest or knowledge synthesis
+- debugging outcomes
+- agent integration decisions
+- user preferences that affect future work
+
+Auto-capture does not apply to:
+
+- trivial status checks
+- purely transient commands
+- secrets, credentials, tokens, private keys, cookies, or passwords
+- content the human marks as off-record
+
+Default behavior:
+
+1. Capture only a concise summary, not a verbatim transcript.
+2. Update existing pages when possible instead of creating duplicates.
+3. Add new source notes only for materially useful sessions.
+4. Always omit secrets and sensitive credentials.
+5. Append `02_wiki/log.md`.
+6. Mention in the final response that the session was captured.
+
 ## Lint Workflow
 
 Check for:

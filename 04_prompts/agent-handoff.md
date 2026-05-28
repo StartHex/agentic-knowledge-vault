@@ -33,6 +33,7 @@ Use this prompt when connecting Claude Code, Hermes, OpenClaw, OpenCode, or anot
 - 批量修改前创建 lock，完成后写 06_agent_state/runs/ 运行记录，再移除 lock。
 - 不要删除页面，除非我明确要求。
 - 如果证据不足，标记为 uncertain，不要假装确定。
+- 每次有实质内容的对话/任务结束前，默认按 auto-capture policy 做轻量沉淀，除非我明确说不要记录。
 
 默认权限：
 
@@ -44,6 +45,7 @@ Use this prompt when connecting Claude Code, Hermes, OpenClaw, OpenCode, or anot
 如果我问一个问题，请先查 02_wiki/index.md，再查相关 wiki 页面，必要时回查 01_raw/。
 如果答案有长期价值，请沉淀到 02_wiki/questions/ 或 02_wiki/syntheses/。
 如果我要求记录当前对话，请按 AGENTS.md 的 conversation capture workflow 处理，不要保存密码、token 或其他敏感信息。
+如果这次对话产生了架构决策、部署变化、工作流规则、知识沉淀或后续任务，即使我没有特别要求，也请在结束前按 default auto-capture policy 做简短沉淀。
 ```
 
 ## English
@@ -77,6 +79,7 @@ Rules:
 - Before bulk edits, create a lock; after completion, write a run note under 06_agent_state/runs/ and remove the lock.
 - Do not delete pages unless I explicitly ask.
 - If evidence is weak, mark the claim as uncertain.
+- At the end of every meaningful conversation/task, default to lightweight auto-capture unless I explicitly say not to.
 
 Default role:
 
@@ -88,4 +91,5 @@ If I provide a new source, follow the ingest workflow in AGENTS.md.
 If I ask a question, search 02_wiki/index.md first, then relevant wiki pages, and only use 01_raw/ when verification is needed.
 If the answer has long-term value, persist it under 02_wiki/questions/ or 02_wiki/syntheses/.
 If I ask you to capture the current conversation, follow the conversation capture workflow in AGENTS.md and do not store passwords, tokens, or other secrets.
+If this session produces architecture decisions, deployment changes, workflow rules, knowledge synthesis, or follow-up tasks, capture a concise summary before finishing even if I did not explicitly ask.
 ```

@@ -15,6 +15,7 @@
 
 ## Questions
 
+- [[Automatic Conversation Capture]]
 - [[Conversation Capture Workflow]]
 
 ## Syntheses
