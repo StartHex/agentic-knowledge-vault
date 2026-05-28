@@ -14,6 +14,7 @@ Personal knowledge base powered by Obsidian, Markdown, Git, and AI agents.
 - [Design](docs/design.md)
 - [Setup Guide](docs/setup.md)
 - [Validation Guide](docs/validation.md)
+- [Agent Integration](docs/agent-integration.md)
 - [Mac Test Plan](07_sync/mac-test-plan.md)
 - [Headless Agent Mode](07_sync/headless-agent-mode.md)
 
