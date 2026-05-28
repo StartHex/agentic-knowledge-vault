@@ -30,6 +30,8 @@ After configuring WebDAV:
 For the built-in WebDAV scripts:
 
 ```bash
+command -v curl
+command -v jq
 cp 07_sync/webdav.env.example .webdav.env
 $EDITOR .webdav.env
 bash -n 05_tools/webdav_*.sh

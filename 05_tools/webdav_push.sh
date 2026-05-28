@@ -12,6 +12,27 @@ fi
 
 root_url="${WEBDAV_URL%/}"
 
+url_path() {
+  local path="$1"
+  local old_ifs="$IFS"
+  local part
+  local encoded
+  local out=""
+
+  IFS='/'
+  for part in $path; do
+    encoded="$(jq -rn --arg value "$part" '$value | @uri')"
+    if [[ -z "$out" ]]; then
+      out="$encoded"
+    else
+      out="$out/$encoded"
+    fi
+  done
+  IFS="$old_ifs"
+
+  printf '%s' "$out"
+}
+
 mkcol() {
   local url="$1"
   local status
@@ -28,7 +49,7 @@ mkcol() {
 
 put_file() {
   local path="$1"
-  local url="$root_url/$path"
+  local url="$root_url/$(url_path "$path")"
   curl -fsS \
     -u "$WEBDAV_USER:$WEBDAV_PASS" \
     --upload-file "$path" \
@@ -46,7 +67,7 @@ find . \
   sed 's#^\./##' |
   awk 'NF' |
   while IFS= read -r dir; do
-    mkcol "$root_url/$dir"
+    mkcol "$root_url/$(url_path "$dir")"
   done
 
 find . \
@@ -61,4 +82,3 @@ find . \
     echo "PUT $file"
     put_file "$file"
   done
-

@@ -41,3 +41,8 @@ Then fill `.webdav.env` locally. The file is ignored by Git and must not be comm
 ```
 
 These scripts are simple `curl` wrappers. They are useful for initial deployment and server-side automation, but they are not a full conflict-aware bidirectional sync engine.
+
+Requirements:
+
+- `curl`
+- `jq`

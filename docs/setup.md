@@ -74,6 +74,8 @@ $EDITOR .webdav.env
 
 `.webdav.env` is intentionally ignored by Git.
 
+The upload script requires `curl` and `jq`. `jq` is used to URL-encode Obsidian filenames that contain spaces.
+
 ## 5. Linux Server Setup
 
 The Linux server should start as a read-only or low-risk maintenance node.
