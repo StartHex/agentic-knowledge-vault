@@ -9,6 +9,14 @@ Personal knowledge base powered by Obsidian, Markdown, Git, and AI agents.
 - Use `AGENTS.md` as the shared protocol for Codex and other agents.
 - Use WebDAV for cross-device file sync and Git for history, review, and recovery.
 
+## Docs
+
+- [Design](docs/design.md)
+- [Setup Guide](docs/setup.md)
+- [Validation Guide](docs/validation.md)
+- [Mac Test Plan](07_sync/mac-test-plan.md)
+- [Headless Agent Mode](07_sync/headless-agent-mode.md)
+
 ## First Commands
 
 Ingest a source:
@@ -29,3 +37,10 @@ Run maintenance:
 对 02_wiki 做一次 lint，找重复、孤立、冲突和缺失链接。
 ```
 
+## Repository Policy
+
+- Keep raw sources in `01_raw/`.
+- Keep synthesized knowledge in `02_wiki/`.
+- Keep reusable outputs in `03_outputs/`.
+- Use `AGENTS.md` as the agent contract.
+- Do not sync `.git/` through WebDAV.
