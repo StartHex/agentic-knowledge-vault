@@ -37,6 +37,19 @@
 4. Answer with links to wiki pages and source notes.
 5. If the answer is reusable, create or update a page under `02_wiki/questions/` or `02_wiki/syntheses/`.
 
+## Conversation Capture Workflow
+
+Use this when the human asks to remember, capture, archive, or ingest an agent conversation.
+
+1. Treat the conversation as a source.
+2. Do not store secrets, credentials, API keys, private tokens, or passwords.
+3. Create a source note under `02_wiki/source-notes/`.
+4. Update relevant project, concept, question, or synthesis pages.
+5. Add backlinks using Obsidian `[[Page Name]]` syntax.
+6. Record decisions, deployments, open questions, and follow-up tasks.
+7. Update `02_wiki/index.md`.
+8. Append one log entry to `02_wiki/log.md`.
+
 ## Lint Workflow
 
 Check for:
@@ -67,4 +80,3 @@ Check for:
 - If sync conflict files appear, generate a merge recommendation first.
 - Avoid filenames that are invalid on Windows: `< > : " / \ | ? *`.
 - Avoid filenames with trailing spaces or trailing dots.
-

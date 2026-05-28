@@ -43,6 +43,7 @@ Use this prompt when connecting Claude Code, Hermes, OpenClaw, OpenCode, or anot
 如果我给你一个新资料，请按 AGENTS.md 的 ingest workflow 处理。
 如果我问一个问题，请先查 02_wiki/index.md，再查相关 wiki 页面，必要时回查 01_raw/。
 如果答案有长期价值，请沉淀到 02_wiki/questions/ 或 02_wiki/syntheses/。
+如果我要求记录当前对话，请按 AGENTS.md 的 conversation capture workflow 处理，不要保存密码、token 或其他敏感信息。
 ```
 
 ## English
@@ -86,5 +87,5 @@ Default role:
 If I provide a new source, follow the ingest workflow in AGENTS.md.
 If I ask a question, search 02_wiki/index.md first, then relevant wiki pages, and only use 01_raw/ when verification is needed.
 If the answer has long-term value, persist it under 02_wiki/questions/ or 02_wiki/syntheses/.
+If I ask you to capture the current conversation, follow the conversation capture workflow in AGENTS.md and do not store passwords, tokens, or other secrets.
 ```
-
