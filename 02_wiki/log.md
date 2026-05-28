@@ -6,3 +6,4 @@
 - Captured the initial setup conversation as [[Source - Conversation - Agentic Knowledge Vault Setup 2026-05-28]] and added [[Conversation Capture Workflow]].
 - Added [[Automatic Conversation Capture]] as the default policy for meaningful agent sessions.
 - Added the operating preference that repository changes should sync to GitHub, WebDAV, and Mac together.
+- Fixed WebDAV upload exclusions so local environment files are not uploaded.

@@ -62,7 +62,9 @@ find . \
   -path './.git' -prune -o \
   -path './private' -prune -o \
   -path './restricted' -prune -o \
+  -path './.env' -prune -o \
   -path './.webdav.env' -prune -o \
+  -path './.mac.env' -prune -o \
   -type d -print |
   sed 's#^\./##' |
   awk 'NF' |
@@ -74,7 +76,9 @@ find . \
   -path './.git' -prune -o \
   -path './private' -prune -o \
   -path './restricted' -prune -o \
+  -path './.env' -prune -o \
   -path './.webdav.env' -prune -o \
+  -path './.mac.env' -prune -o \
   -type f -print |
   sed 's#^\./##' |
   sort |
