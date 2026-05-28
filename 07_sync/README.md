@@ -28,15 +28,19 @@ Linux server or Git remote
 Use:
 
 ```bash
+cp 07_sync/sync.env.example .sync.env
 cp 07_sync/webdav.env.example .webdav.env
 ```
 
-Then fill `.webdav.env` locally. The file is ignored by Git and must not be committed.
+Prefer `.sync.env` for new setups. Legacy `.webdav.env` and `.mac.env` still work as supporting local files, but `05_tools/sync_all.sh` will not sync unless `SYNC_ENABLED=true`.
+
+Local env files are ignored by Git and must not be committed.
 
 ## Built-In Scripts
 
 ```bash
 05_tools/sync_all.sh
+05_tools/sync_daemon.sh
 05_tools/webdav_list.sh
 05_tools/webdav_push.sh
 ```
@@ -59,3 +63,12 @@ cp 07_sync/mac.env.example .mac.env
 Then fill `.mac.env` locally. The file is ignored by Git and must not be committed.
 
 `05_tools/sync_all.sh` is the preferred command after repository changes. It pushes Git, uploads WebDAV, and deploys the working tree to the configured Mac vault path.
+
+## Config Defaults
+
+- Missing `.sync.env`: no sync.
+- `SYNC_ENABLED` missing or not `true`: no sync.
+- `SYNC_INTERVAL_SECONDS` missing: `7200` seconds.
+- `WEBDAV_SYNC_ENABLED=false`: skip WebDAV.
+- `MAC_SYNC_ENABLED=false`: skip Mac.
+- `GIT_SYNC_ENABLED=false`: skip Git push.

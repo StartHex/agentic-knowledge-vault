@@ -6,6 +6,11 @@ if [[ -f .webdav.env ]]; then
   source .webdav.env
 fi
 
+if [[ -f .sync.env ]]; then
+  # shellcheck disable=SC1091
+  source .sync.env
+fi
+
 : "${WEBDAV_URL:?Set WEBDAV_URL}"
 : "${WEBDAV_USER:?Set WEBDAV_USER}"
 : "${WEBDAV_PASS:?Set WEBDAV_PASS}"
@@ -63,6 +68,7 @@ find . \
   -path './private' -prune -o \
   -path './restricted' -prune -o \
   -path './.env' -prune -o \
+  -path './.sync.env' -prune -o \
   -path './.webdav.env' -prune -o \
   -path './.mac.env' -prune -o \
   -type d -print |
@@ -77,6 +83,7 @@ find . \
   -path './private' -prune -o \
   -path './restricted' -prune -o \
   -path './.env' -prune -o \
+  -path './.sync.env' -prune -o \
   -path './.webdav.env' -prune -o \
   -path './.mac.env' -prune -o \
   -type f -print |

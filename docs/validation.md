@@ -32,8 +32,8 @@ For the built-in WebDAV scripts:
 ```bash
 command -v curl
 command -v jq
-cp 07_sync/webdav.env.example .webdav.env
-$EDITOR .webdav.env
+cp 07_sync/sync.env.example .sync.env
+$EDITOR .sync.env
 bash -n 05_tools/webdav_*.sh
 05_tools/webdav_list.sh
 ```
@@ -44,6 +44,7 @@ For full sync validation:
 
 ```bash
 bash -n 05_tools/sync_all.sh
+bash -n 05_tools/sync_daemon.sh
 05_tools/sync_all.sh
 ```
 

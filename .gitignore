@@ -12,6 +12,7 @@ desktop.ini
 *.conflict*
 
 .env
+.sync.env
 .webdav.env
 .mac.env
 

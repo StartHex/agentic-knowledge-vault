@@ -17,6 +17,8 @@ Agent changes should be synchronized through a three-target workflow:
 
 Codex should use `05_tools/sync_all.sh` after repository changes so the three targets stay aligned.
 
+Sync is explicitly configurable. If `.sync.env` is missing or `SYNC_ENABLED` is not `true`, sync should not run. If `SYNC_INTERVAL_SECONDS` is missing, scheduled sync defaults to 7200 seconds.
+
 ## Operating Rule
 
 Do not treat GitHub push as sufficient. A completed maintainer change should end with:
@@ -26,6 +28,12 @@ Do not treat GitHub push as sufficient. A completed maintainer change should end
 ```
 
 This pushes Git, uploads to WebDAV, and deploys the working tree to the configured Mac vault path.
+
+For scheduled sync:
+
+```bash
+05_tools/sync_daemon.sh
+```
 
 ## Agent Implications
 
@@ -39,10 +47,10 @@ This pushes Git, uploads to WebDAV, and deploys the working tree to the configur
 - A Mac-side agent writes useful content that never gets pulled into Git.
 - WebDAV contains stale or incomplete files.
 - Local environment files accidentally sync to WebDAV.
+- Sync runs unexpectedly because defaults are unclear.
 
 ## Related
 
 - [[Project - Agentic Knowledge Vault]]
 - [[Concept - Multi-Agent Vault Protocol]]
 - [[Automatic Conversation Capture]]
-

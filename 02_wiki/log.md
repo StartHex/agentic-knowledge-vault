@@ -12,3 +12,4 @@
 - Ingested [[Source - Agent Role Policy Test 2026-05-28]]: defined three-tier agent role policy (maintainer/editor/reader) with specific agent assignments. Updated [[Concept - Multi-Agent Vault Protocol]] and created [[Agent Role Policy 2026-05-28]] as a synthesis page.
 - Reviewed the Claude Code ingest test and pulled the Mac-side result back into Git-managed history.
 - Codex self-tested query/synthesis workflow by creating [[How Should Agent Changes Be Synchronized]] and recording `06_agent_state/runs/2026-05-28-codex-sync-query-self-test.md`.
+- Made sync explicitly configurable with `.sync.env`; missing config disables sync and missing interval defaults to 7200 seconds.

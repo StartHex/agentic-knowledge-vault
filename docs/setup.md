@@ -79,12 +79,20 @@ The upload script requires `curl` and `jq`. `jq` is used to URL-encode Obsidian 
 For Mac deployment:
 
 ```bash
-cp 07_sync/mac.env.example .mac.env
-$EDITOR .mac.env
+cp 07_sync/sync.env.example .sync.env
+$EDITOR .sync.env
 05_tools/sync_all.sh
 ```
 
 After changes, prefer `05_tools/sync_all.sh` so GitHub, WebDAV, and Mac stay aligned.
+
+If `.sync.env` is missing, sync is disabled. If `SYNC_INTERVAL_SECONDS` is missing, scheduled sync defaults to 7200 seconds.
+
+For interval-based sync:
+
+```bash
+05_tools/sync_daemon.sh
+```
 
 ## 5. Linux Server Setup
 
