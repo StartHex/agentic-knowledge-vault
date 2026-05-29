@@ -21,3 +21,4 @@
 - Added Windows compatibility checks, LF line-ending rules, and Windows setup documentation.
 - Added [[How Should I Search the Knowledge Base]] with practical keywords for Obsidian and command-line search.
 - Added [[How Should I Add Material to the Knowledge Base]] with source ingest, question search, and copywriting workflows.
+- Imported `github-devpor` project documentation into [[Project - github-devpor]] and [[Source - github-devpor Project Documents]] after confirming it was missing from the knowledge base.

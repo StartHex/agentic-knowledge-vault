@@ -1,4 +1,15 @@
 relative_path	absolute_path	modified_at	size_bytes	sha256	title
+01_raw/external-projects/github-devpor/AGENTS.md	/home/ubuntu/KnowledgeVault/01_raw/external-projects/github-devpor/AGENTS.md	2026-05-29T02:21:37Z	963	c0965a36f1c225fa2033bf5da5b7e0fdf3d9afba4fd89cce7c80896eebf3d214	仓库内 Agent 执行约定
+01_raw/external-projects/github-devpor/README.md	/home/ubuntu/KnowledgeVault/01_raw/external-projects/github-devpor/README.md	2026-05-29T02:21:37Z	3267	365053b31ce1fc50fed2cd7632a46d844f02938456ef1a34d7dff958e2b3fe0f	github-devpor
+01_raw/external-projects/github-devpor/github-devpor设计.md	/home/ubuntu/KnowledgeVault/01_raw/external-projects/github-devpor/github-devpor设计.md	2026-05-29T02:21:37Z	22151	6465028021bcb9d862ae8ddf92c700f5b2274bd372672243c2d18a1bdbb686ae	github-devpor设计.md
+01_raw/external-projects/github-devpor/payment-redesign.md	/home/ubuntu/KnowledgeVault/01_raw/external-projects/github-devpor/payment-redesign.md	2026-05-29T02:21:37Z	7688	ee72b01ffb21bd0f4d0178127efae29af641dfdd50539d9cbb83a6882504d80e	支付系统重构设计报告 v2 — 纯卡密模式
+01_raw/external-projects/github-devpor/交付结论.md	/home/ubuntu/KnowledgeVault/01_raw/external-projects/github-devpor/交付结论.md	2026-05-29T02:21:37Z	1411	ea3255dc2349510c3bf862e125c42f368d7c6d8edc62868d11ec8424bc4c5f6e	交付结论（当前阶段）
+01_raw/external-projects/github-devpor/发布前检查清单.md	/home/ubuntu/KnowledgeVault/01_raw/external-projects/github-devpor/发布前检查清单.md	2026-05-29T02:21:37Z	1779	656e67274d4647fec2f77b0bf0d8e2215aaa35f174c8926da71612c7137d9b62	发布前检查清单
+01_raw/external-projects/github-devpor/开发进度与状态.md	/home/ubuntu/KnowledgeVault/01_raw/external-projects/github-devpor/开发进度与状态.md	2026-05-29T02:21:37Z	9503	9dd4fad6875dc41afb7ba344b734190bd925c511785c89e97f13d32bf7066964	github-devpor 开发进度与状态
+01_raw/external-projects/github-devpor/手工UI三轮回归记录.md	/home/ubuntu/KnowledgeVault/01_raw/external-projects/github-devpor/手工UI三轮回归记录.md	2026-05-29T02:21:37Z	2859	7b57d4f085a2e83071a545a23a8aa416cc9662e723547cb76f12279eda3e2cec	手工 UI 三轮回归记录
+01_raw/external-projects/github-devpor/最小交付说明.md	/home/ubuntu/KnowledgeVault/01_raw/external-projects/github-devpor/最小交付说明.md	2026-05-29T02:21:37Z	1890	f2d63310a7c7ec0ddaa7eb63ee484c85bc369333d39cac2d9e4ea75a56f4eebb	github-devpor 最小交付说明
+01_raw/external-projects/github-devpor/详细设计.md	/home/ubuntu/KnowledgeVault/01_raw/external-projects/github-devpor/详细设计.md	2026-05-29T02:21:37Z	17395	2ac1f92c628e576066e865e403e2e8951dcd51c7703ee71a7592995cfa898ee7	github-devpor 详细设计
+01_raw/external-projects/github-devpor/部署记录与操作.md	/home/ubuntu/KnowledgeVault/01_raw/external-projects/github-devpor/部署记录与操作.md	2026-05-29T02:21:37Z	1859	feb085a64683e3d9fdda12bebe41ab653d820eac36421173f910b8f3fbad69fb	部署记录与操作
 01_raw/project-docs/个人知识库设计.md	/home/ubuntu/KnowledgeVault/01_raw/project-docs/个人知识库设计.md	2026-05-29T00:49:48Z	21791	714dce4a336a995bcb7e3cddb757771eb15490b606553b802afbc65217391737	Codex + Obsidian 个人知识库设计文档
 04_prompts/agent-handoff.md	/home/ubuntu/KnowledgeVault/04_prompts/agent-handoff.md	2026-05-28T15:43:51Z	4203	28e6d8212e797afafdd1bc0f96da909795bfcb102f72f969e6544770de9d1fd4	Agent Handoff Prompt
 04_prompts/auto-capture-session.md	/home/ubuntu/KnowledgeVault/04_prompts/auto-capture-session.md	2026-05-28T15:43:51Z	840	3a59005b784ce9c210edc4d6142a3cf640b5b3145a579eaac9906cb28f0d796d	Auto-Capture Session Prompt
@@ -13,7 +24,7 @@ relative_path	absolute_path	modified_at	size_bytes	sha256	title
 04_templates/source-note.md	/home/ubuntu/KnowledgeVault/04_templates/source-note.md	2026-05-28T15:19:16Z	280	f7d162e4a0b280929c95c86c8027481936026352f7da20a0a276db043f77c0b7	Source - {{title}}
 05_tools/check_windows_compat.sh	/home/ubuntu/KnowledgeVault/05_tools/check_windows_compat.sh	2026-05-29T00:59:27Z	1489	05bdc7bca1cfcb10aa187c3e8a8bcb77efaa9e63ae449f3798b6339cae4728ce	check_windows_compat.sh
 05_tools/export_context.sh	/home/ubuntu/KnowledgeVault/05_tools/export_context.sh	2026-05-28T15:19:16Z	420	4cd210ab00f005817417a5994c8d246da5ed89bfcaa52a43e02feff1c3e0258d	export_context.sh
-05_tools/index_project_docs.sh	/home/ubuntu/KnowledgeVault/05_tools/index_project_docs.sh	2026-05-29T00:55:50Z	4019	22ee822c34ba15516fa386842cebcf97c0d353fcd5e4c4a4e2f75c255a5dbaa5	Project Documentation Index
+05_tools/index_project_docs.sh	/home/ubuntu/KnowledgeVault/05_tools/index_project_docs.sh	2026-05-29T02:22:21Z	4044	088fd09a1b8db6666d10cfe67a0d0937f65bc0cd65e7395d82d4a52edb457127	Project Documentation Index
 05_tools/kb_search.sh	/home/ubuntu/KnowledgeVault/05_tools/kb_search.sh	2026-05-28T15:19:16Z	214	51da629754a7f7eaea475c274b2d59fabd830448482c722d7c2df13a2e1f3971	kb_search.sh
 05_tools/lint_links.sh	/home/ubuntu/KnowledgeVault/05_tools/lint_links.sh	2026-05-29T00:59:27Z	320	22154ca3206a5b02c83ce1d7e6f877818fddbd1df94a91293c91dbd333805065	lint_links.sh
 05_tools/sync_all.sh	/home/ubuntu/KnowledgeVault/05_tools/sync_all.sh	2026-05-29T00:50:25Z	2278	02962a0ac7c93cbe63d33acff132f0805543114b230cca7652d42c0386dbc179	sync_all.sh

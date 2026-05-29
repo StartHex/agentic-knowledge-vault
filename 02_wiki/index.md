@@ -11,6 +11,7 @@
 
 - [[Project - Agentic Knowledge Vault]]
 - [[Project Documentation Index]]
+- [[Project - github-devpor]]
 
 ## Domains
 
@@ -32,5 +33,6 @@
 
 - [[Source - Conversation - Agentic Knowledge Vault Setup 2026-05-28]]
 - [[Source - Agent Role Policy Test 2026-05-28]]
+- [[Source - github-devpor Project Documents]]
 
 ## Contradictions

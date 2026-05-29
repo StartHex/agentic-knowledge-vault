@@ -65,7 +65,7 @@ first_heading() {
 collect_files() {
   {
     find . -maxdepth 1 -type f \( -name '*.md' -o -name 'README*' \) -print
-    find docs 01_raw/project-docs 04_prompts 04_templates 05_tools 07_sync -type f \
+    find docs 01_raw/project-docs 01_raw/external-projects 04_prompts 04_templates 05_tools 07_sync -type f \
       \( -name '*.md' -o -name '*.sh' -o -name '*.example' \) -print 2>/dev/null || true
   } |
     sed 's#^\./##' |
