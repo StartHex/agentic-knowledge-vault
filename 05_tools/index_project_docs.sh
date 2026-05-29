@@ -5,6 +5,21 @@ project_root="$(pwd -P)"
 index_file="02_wiki/projects/Project Documentation Index.md"
 manifest_file="03_outputs/reports/project-docs-manifest.tsv"
 
+if [[ -f .webdav.env ]]; then
+  # shellcheck disable=SC1091
+  source .webdav.env
+fi
+
+if [[ -f .mac.env ]]; then
+  # shellcheck disable=SC1091
+  source .mac.env
+fi
+
+if [[ -f .sync.env ]]; then
+  # shellcheck disable=SC1091
+  source .sync.env
+fi
+
 mkdir -p "$(dirname "$index_file")" "$(dirname "$manifest_file")"
 
 mtime_iso() {
@@ -82,6 +97,12 @@ if [[ -z "$index_updated_at" ]]; then
   index_updated_at="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 fi
 
+git_remote="$(git remote get-url origin 2>/dev/null || true)"
+mac_target=""
+if [[ -n "${MAC_SSH_USER:-}" && -n "${MAC_SSH_HOST:-}" && -n "${MAC_VAULT_PATH:-}" ]]; then
+  mac_target="$MAC_SSH_USER@$MAC_SSH_HOST:$MAC_VAULT_PATH"
+fi
+
 {
   cat <<EOF
 ---
@@ -95,12 +116,15 @@ tags: [project, documentation, generated-index]
 
 ## Summary
 
-This generated index makes project documentation searchable from the knowledge base. It records the current project path, relative document paths, modified times, sizes, hashes, and detected titles.
+This generated index makes project documentation searchable from the knowledge base. It records environment paths, relative document paths, modified times, sizes, hashes, and detected titles.
 
-## Project Path
+## Project Paths
 
 \`\`\`text
-$project_root
+Generated from: $project_root
+Git remote: ${git_remote:-not configured}
+WebDAV URL: ${WEBDAV_URL:-not configured}
+Mac vault: ${mac_target:-not configured}
 \`\`\`
 
 ## Index State

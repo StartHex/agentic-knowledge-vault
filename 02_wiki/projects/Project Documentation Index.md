@@ -1,7 +1,7 @@
 ---
 type: project-index
 status: generated
-updated: 2026-05-29T00:53:35Z
+updated: 2026-05-29T00:55:50Z
 tags: [project, documentation, generated-index]
 ---
 
@@ -9,17 +9,20 @@ tags: [project, documentation, generated-index]
 
 ## Summary
 
-This generated index makes project documentation searchable from the knowledge base. It records the current project path, relative document paths, modified times, sizes, hashes, and detected titles.
+This generated index makes project documentation searchable from the knowledge base. It records environment paths, relative document paths, modified times, sizes, hashes, and detected titles.
 
-## Project Path
+## Project Paths
 
 ```text
-/home/ubuntu/KnowledgeVault
+Generated from: /home/ubuntu/KnowledgeVault
+Git remote: git@github.com:StartHex/agentic-knowledge-vault.git
+WebDAV URL: http://10.106.106.2:5255/dav/sync/agentic-knowledge-vault
+Mac vault: shx@10.106.106.5:/Users/shx/Documents/Obsidian Vault/agentic-knowledge-vault
 ```
 
 ## Index State
 
-Latest indexed document modification time: 2026-05-29T00:53:35Z
+Latest indexed document modification time: 2026-05-29T00:55:50Z
 
 ## Update Rule
 
@@ -52,7 +55,7 @@ If the project directory moves, rerun the script from the new repository root. `
 | `04_templates/question.md` | 2026-05-28T15:19:16Z | 165 | `799ac16bb51e` | {{title}} |
 | `04_templates/source-note.md` | 2026-05-28T15:19:16Z | 280 | `f7d162e4a0b2` | Source - {{title}} |
 | `05_tools/export_context.sh` | 2026-05-28T15:19:16Z | 420 | `4cd210ab00f0` | export_context.sh |
-| `05_tools/index_project_docs.sh` | 2026-05-29T00:53:35Z | 3408 | `968aee0b6888` | Project Documentation Index |
+| `05_tools/index_project_docs.sh` | 2026-05-29T00:55:50Z | 4019 | `22ee822c34ba` | Project Documentation Index |
 | `05_tools/kb_search.sh` | 2026-05-28T15:19:16Z | 214 | `51da629754a7` | kb_search.sh |
 | `05_tools/lint_links.sh` | 2026-05-28T15:19:16Z | 324 | `af803eff719b` | lint_links.sh |
 | `05_tools/sync_all.sh` | 2026-05-29T00:50:25Z | 2278 | `02962a0ac7c9` | sync_all.sh |

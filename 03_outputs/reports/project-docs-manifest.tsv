@@ -12,7 +12,7 @@ relative_path	absolute_path	modified_at	size_bytes	sha256	title
 04_templates/question.md	/home/ubuntu/KnowledgeVault/04_templates/question.md	2026-05-28T15:19:16Z	165	799ac16bb51e19deecac0e2b2d2ed98c712f336289d859db82dc860c03ee7f2a	{{title}}
 04_templates/source-note.md	/home/ubuntu/KnowledgeVault/04_templates/source-note.md	2026-05-28T15:19:16Z	280	f7d162e4a0b280929c95c86c8027481936026352f7da20a0a276db043f77c0b7	Source - {{title}}
 05_tools/export_context.sh	/home/ubuntu/KnowledgeVault/05_tools/export_context.sh	2026-05-28T15:19:16Z	420	4cd210ab00f005817417a5994c8d246da5ed89bfcaa52a43e02feff1c3e0258d	export_context.sh
-05_tools/index_project_docs.sh	/home/ubuntu/KnowledgeVault/05_tools/index_project_docs.sh	2026-05-29T00:53:35Z	3408	968aee0b688884ceced484dfeeec57e98f5e8747bdee20e20af8bdd77342c107	Project Documentation Index
+05_tools/index_project_docs.sh	/home/ubuntu/KnowledgeVault/05_tools/index_project_docs.sh	2026-05-29T00:55:50Z	4019	22ee822c34ba15516fa386842cebcf97c0d353fcd5e4c4a4e2f75c255a5dbaa5	Project Documentation Index
 05_tools/kb_search.sh	/home/ubuntu/KnowledgeVault/05_tools/kb_search.sh	2026-05-28T15:19:16Z	214	51da629754a7f7eaea475c274b2d59fabd830448482c722d7c2df13a2e1f3971	kb_search.sh
 05_tools/lint_links.sh	/home/ubuntu/KnowledgeVault/05_tools/lint_links.sh	2026-05-28T15:19:16Z	324	af803eff719bef52b9bc1b68e5bd3c14fe1301185405c32616304fda621b4872	lint_links.sh
 05_tools/sync_all.sh	/home/ubuntu/KnowledgeVault/05_tools/sync_all.sh	2026-05-29T00:50:25Z	2278	02962a0ac7c93cbe63d33acff132f0805543114b230cca7652d42c0386dbc179	sync_all.sh
