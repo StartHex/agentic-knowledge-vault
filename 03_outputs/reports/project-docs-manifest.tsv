@@ -26,7 +26,8 @@ relative_path	absolute_path	modified_at	size_bytes	sha256	title
 05_tools/export_context.sh	/home/ubuntu/KnowledgeVault/05_tools/export_context.sh	2026-05-28T15:19:16Z	420	4cd210ab00f005817417a5994c8d246da5ed89bfcaa52a43e02feff1c3e0258d	export_context.sh
 05_tools/index_project_docs.sh	/home/ubuntu/KnowledgeVault/05_tools/index_project_docs.sh	2026-05-29T02:22:21Z	4044	088fd09a1b8db6666d10cfe67a0d0937f65bc0cd65e7395d82d4a52edb457127	Project Documentation Index
 05_tools/kb_search.sh	/home/ubuntu/KnowledgeVault/05_tools/kb_search.sh	2026-05-28T15:19:16Z	214	51da629754a7f7eaea475c274b2d59fabd830448482c722d7c2df13a2e1f3971	kb_search.sh
-05_tools/lint_links.sh	/home/ubuntu/KnowledgeVault/05_tools/lint_links.sh	2026-05-29T00:59:27Z	320	22154ca3206a5b02c83ce1d7e6f877818fddbd1df94a91293c91dbd333805065	lint_links.sh
+05_tools/lint_links.sh	/home/ubuntu/KnowledgeVault/05_tools/lint_links.sh	2026-05-29T02:25:52Z	657	ce1843bb553c9831c3bbec84bfc052113289655a2254fb3ccc19f4a9abf91501	lint_links.sh
+05_tools/normalize_markdown_encoding.sh	/home/ubuntu/KnowledgeVault/05_tools/normalize_markdown_encoding.sh	2026-05-29T02:25:29Z	1389	5589ad846ef5b6976b988a9ba69c02c3042747c345b69f983b2a0b6d67d03a4c	normalize_markdown_encoding.sh
 05_tools/sync_all.sh	/home/ubuntu/KnowledgeVault/05_tools/sync_all.sh	2026-05-29T00:50:25Z	2278	02962a0ac7c93cbe63d33acff132f0805543114b230cca7652d42c0386dbc179	sync_all.sh
 05_tools/sync_daemon.sh	/home/ubuntu/KnowledgeVault/05_tools/sync_daemon.sh	2026-05-28T16:05:01Z	519	e1a0a4df55d97d0ac6478ceb53de1c005226a6eb20f52ba6c4b41a01967d78de	sync_daemon.sh
 05_tools/webdav_list.sh	/home/ubuntu/KnowledgeVault/05_tools/webdav_list.sh	2026-05-28T15:26:45Z	330	f8473a677c7e7619f227f2e9c15854d760cc5e19c7e3421fb43c71b4b6563f2e	webdav_list.sh
@@ -40,7 +41,7 @@ relative_path	absolute_path	modified_at	size_bytes	sha256	title
 07_sync/sync.env.example	/home/ubuntu/KnowledgeVault/07_sync/sync.env.example	2026-05-29T00:50:25Z	619	ad630a23dfad95c0256753f17ad2fe511ddc0c89201acf112a611577868a35d7	Copy this file to `.sync.env` and fill local settings.
 07_sync/webdav.env.example	/home/ubuntu/KnowledgeVault/07_sync/webdav.env.example	2026-05-28T15:26:45Z	210	b288aee811ed537472f98602ceb623697d56b68fc83379e1f1ad0a97c8c62d96	Copy this file to `.webdav.env` and fill local credentials.
 07_sync/windows-setup.md	/home/ubuntu/KnowledgeVault/07_sync/windows-setup.md	2026-05-29T00:59:27Z	1170	816bfb06a030233ebfbe4d55e44d0ccb8e3ebee2e862a67fb80ff039eaeda04a	Windows Setup
-AGENTS.md	/home/ubuntu/KnowledgeVault/AGENTS.md	2026-05-28T15:43:51Z	4173	e82f3e6fa895d3fa27dba604f5c874183580a202c6318bb1baddb66f7a0b830a	Personal Knowledge Base Agent Protocol
+AGENTS.md	/home/ubuntu/KnowledgeVault/AGENTS.md	2026-05-29T02:25:52Z	4383	5c9df0ed0a85b61c14bbea9be223815d830bbcf94bdcb9c104c6e9cc69f58d5e	Personal Knowledge Base Agent Protocol
 CLAUDE.md	/home/ubuntu/KnowledgeVault/CLAUDE.md	2026-05-28T15:18:54Z	230	47de4458d685d85ceb14b0ec3a7c6f91a3ffd824e8d7071a0a6be5d58ef26a1b	Claude Code Instructions
 HERMES.md	/home/ubuntu/KnowledgeVault/HERMES.md	2026-05-28T15:34:38Z	388	71a70e681bf78213d4bd817b3c2ea587fae67da94623f1fe4d39afb6113e672a	Hermes Instructions
 OPENCLAW.md	/home/ubuntu/KnowledgeVault/OPENCLAW.md	2026-05-28T15:34:38Z	392	029c8f135d9f87c9b8ce6f2192ef2996b77154aaf90c13c19c610f2e26b3305e	OpenClaw Instructions

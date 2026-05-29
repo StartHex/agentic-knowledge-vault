@@ -21,13 +21,14 @@
 ## Ingest Workflow
 
 1. Read the new source from `00_inbox/` or `01_raw/`.
-2. If the source is in `00_inbox/`, copy or move the durable original into the right `01_raw/` subdirectory only when the human asks or the task explicitly includes archiving.
-3. Create or update one source note under `02_wiki/source-notes/`.
-4. Update relevant concept, person, project, domain, question, or synthesis pages.
-5. Add backlinks using Obsidian `[[Page Name]]` syntax.
-6. Record contradictions, weak evidence, and uncertainty explicitly.
-7. Update `02_wiki/index.md`.
-8. Append one log entry to `02_wiki/log.md`.
+2. Normalize Markdown/text sources to UTF-8 before archiving or indexing. Use `05_tools/normalize_markdown_encoding.sh` for mixed UTF-8 and GBK/GB2312/GB18030 project documents.
+3. If the source is in `00_inbox/`, copy or move the durable original into the right `01_raw/` subdirectory only when the human asks or the task explicitly includes archiving.
+4. Create or update one source note under `02_wiki/source-notes/`.
+5. Update relevant concept, person, project, domain, question, or synthesis pages.
+6. Add backlinks using Obsidian `[[Page Name]]` syntax.
+7. Record contradictions, weak evidence, and uncertainty explicitly.
+8. Update `02_wiki/index.md`.
+9. Append one log entry to `02_wiki/log.md`.
 
 ## Query Workflow
 
@@ -92,6 +93,7 @@ Check for:
 - pages without source references
 - inconsistent frontmatter
 - broken raw source paths
+- non-UTF-8 Markdown/text files
 
 ## Multi-Agent Safety
 

@@ -1,7 +1,7 @@
 ---
 type: project-index
 status: generated
-updated: 2026-05-29T02:22:21Z
+updated: 2026-05-29T02:25:52Z
 tags: [project, documentation, generated-index]
 ---
 
@@ -22,7 +22,7 @@ Mac vault: shx@10.106.106.5:/Users/shx/Documents/Obsidian Vault/agentic-knowledg
 
 ## Index State
 
-Latest indexed document modification time: 2026-05-29T02:22:21Z
+Latest indexed document modification time: 2026-05-29T02:25:52Z
 
 ## Update Rule
 
@@ -69,7 +69,8 @@ If the project directory moves, rerun the script from the new repository root. `
 | `05_tools/export_context.sh` | 2026-05-28T15:19:16Z | 420 | `4cd210ab00f0` | export_context.sh |
 | `05_tools/index_project_docs.sh` | 2026-05-29T02:22:21Z | 4044 | `088fd09a1b8d` | Project Documentation Index |
 | `05_tools/kb_search.sh` | 2026-05-28T15:19:16Z | 214 | `51da629754a7` | kb_search.sh |
-| `05_tools/lint_links.sh` | 2026-05-29T00:59:27Z | 320 | `22154ca3206a` | lint_links.sh |
+| `05_tools/lint_links.sh` | 2026-05-29T02:25:52Z | 657 | `ce1843bb553c` | lint_links.sh |
+| `05_tools/normalize_markdown_encoding.sh` | 2026-05-29T02:25:29Z | 1389 | `5589ad846ef5` | normalize_markdown_encoding.sh |
 | `05_tools/sync_all.sh` | 2026-05-29T00:50:25Z | 2278 | `02962a0ac7c9` | sync_all.sh |
 | `05_tools/sync_daemon.sh` | 2026-05-28T16:05:01Z | 519 | `e1a0a4df55d9` | sync_daemon.sh |
 | `05_tools/webdav_list.sh` | 2026-05-28T15:26:45Z | 330 | `f8473a677c7e` | webdav_list.sh |
@@ -83,7 +84,7 @@ If the project directory moves, rerun the script from the new repository root. `
 | `07_sync/sync.env.example` | 2026-05-29T00:50:25Z | 619 | `ad630a23dfad` | Copy this file to `.sync.env` and fill local settings. |
 | `07_sync/webdav.env.example` | 2026-05-28T15:26:45Z | 210 | `b288aee811ed` | Copy this file to `.webdav.env` and fill local credentials. |
 | `07_sync/windows-setup.md` | 2026-05-29T00:59:27Z | 1170 | `816bfb06a030` | Windows Setup |
-| `AGENTS.md` | 2026-05-28T15:43:51Z | 4173 | `e82f3e6fa895` | Personal Knowledge Base Agent Protocol |
+| `AGENTS.md` | 2026-05-29T02:25:52Z | 4383 | `5c9df0ed0a85` | Personal Knowledge Base Agent Protocol |
 | `CLAUDE.md` | 2026-05-28T15:18:54Z | 230 | `47de4458d685` | Claude Code Instructions |
 | `HERMES.md` | 2026-05-28T15:34:38Z | 388 | `71a70e681bf7` | Hermes Instructions |
 | `OPENCLAW.md` | 2026-05-28T15:34:38Z | 392 | `029c8f135d9f` | OpenClaw Instructions |

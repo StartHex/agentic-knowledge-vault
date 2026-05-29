@@ -19,6 +19,18 @@ Put the material under:
 00_inbox/
 ```
 
+For Markdown or text copied from projects, normalize encoding before ingesting or indexing. The vault standard is UTF-8:
+
+```bash
+05_tools/normalize_markdown_encoding.sh 00_inbox/<file-or-directory>
+```
+
+To check without modifying files:
+
+```bash
+05_tools/normalize_markdown_encoding.sh --check 00_inbox/<file-or-directory>
+```
+
 Then ask:
 
 ```text
@@ -102,4 +114,3 @@ Useful keywords:
 - [[Project Documentation Index]]
 - [[Conversation Capture Workflow]]
 - [[Project - Agentic Knowledge Vault]]
-
