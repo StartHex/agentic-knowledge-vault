@@ -42,6 +42,8 @@ tags: [project, knowledge-base, obsidian, codex]
 - [[Concept - Multi-Agent Vault Protocol]]
 - [[Conversation Capture Workflow]]
 - [[How Should Agent Changes Be Synchronized]]
+- [[How Should Project Documentation Be Indexed]]
+- [[Project Documentation Index]]
 - [[Source - Conversation - Agentic Knowledge Vault Setup 2026-05-28]]
 
 ## Next Steps

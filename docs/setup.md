@@ -88,6 +88,8 @@ After changes, prefer `05_tools/sync_all.sh` so GitHub, WebDAV, and Mac stay ali
 
 If `.sync.env` is missing, sync is disabled. If `SYNC_INTERVAL_SECONDS` is missing, scheduled sync defaults to 7200 seconds.
 
+`DOC_INDEX_ENABLED=true` makes sync rebuild the project documentation index before pushing. This updates the project path after the repository moves.
+
 For interval-based sync:
 
 ```bash

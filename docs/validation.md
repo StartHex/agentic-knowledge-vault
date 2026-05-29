@@ -43,8 +43,10 @@ Use `05_tools/webdav_push.sh` only when the local Linux copy should overwrite ma
 For full sync validation:
 
 ```bash
+bash -n 05_tools/index_project_docs.sh
 bash -n 05_tools/sync_all.sh
 bash -n 05_tools/sync_daemon.sh
+05_tools/index_project_docs.sh
 05_tools/sync_all.sh
 ```
 

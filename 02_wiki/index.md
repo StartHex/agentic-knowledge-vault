@@ -10,6 +10,7 @@
 ## Projects
 
 - [[Project - Agentic Knowledge Vault]]
+- [[Project Documentation Index]]
 
 ## Domains
 
@@ -18,6 +19,7 @@
 - [[Automatic Conversation Capture]]
 - [[Conversation Capture Workflow]]
 - [[How Should Agent Changes Be Synchronized]]
+- [[How Should Project Documentation Be Indexed]]
 
 ## Syntheses
 

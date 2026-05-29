@@ -13,3 +13,8 @@
 - Reviewed the Claude Code ingest test and pulled the Mac-side result back into Git-managed history.
 - Codex self-tested query/synthesis workflow by creating [[How Should Agent Changes Be Synchronized]] and recording `06_agent_state/runs/2026-05-28-codex-sync-query-self-test.md`.
 - Made sync explicitly configurable with `.sync.env`; missing config disables sync and missing interval defaults to 7200 seconds.
+
+## 2026-05-29
+
+- Added generated [[Project Documentation Index]] so project docs, paths, modified times, hashes, and current project root are searchable.
+- Added [[How Should Project Documentation Be Indexed]] to document move handling, indexing limits, and remaining gaps.

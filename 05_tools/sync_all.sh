@@ -21,6 +21,7 @@ SYNC_INTERVAL_SECONDS="${SYNC_INTERVAL_SECONDS:-7200}"
 GIT_SYNC_ENABLED="${GIT_SYNC_ENABLED:-true}"
 WEBDAV_SYNC_ENABLED="${WEBDAV_SYNC_ENABLED:-false}"
 MAC_SYNC_ENABLED="${MAC_SYNC_ENABLED:-false}"
+DOC_INDEX_ENABLED="${DOC_INDEX_ENABLED:-true}"
 
 if [[ "$SYNC_ENABLED" != "true" ]]; then
   echo "Sync disabled. Set SYNC_ENABLED=true in .sync.env to enable."
@@ -28,6 +29,13 @@ if [[ "$SYNC_ENABLED" != "true" ]]; then
 fi
 
 echo "Sync enabled. Interval setting: ${SYNC_INTERVAL_SECONDS}s"
+
+if [[ "$DOC_INDEX_ENABLED" == "true" ]]; then
+  echo "Updating project documentation index"
+  05_tools/index_project_docs.sh
+else
+  echo "Project documentation index disabled; skipping"
+fi
 
 if [[ "$GIT_SYNC_ENABLED" == "true" ]] && git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   branch="$(git branch --show-current)"
