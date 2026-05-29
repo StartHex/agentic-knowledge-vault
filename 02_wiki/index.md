@@ -21,6 +21,7 @@
 - [[How Should Agent Changes Be Synchronized]]
 - [[How Should Project Documentation Be Indexed]]
 - [[How Should I Search the Knowledge Base]]
+- [[How Should I Add Material to the Knowledge Base]]
 
 ## Syntheses
 
