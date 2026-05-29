@@ -6,6 +6,7 @@ Run from the repository root:
 
 ```bash
 bash -n 05_tools/*.sh
+05_tools/check_windows_compat.sh
 05_tools/lint_links.sh
 git status --short --branch
 ```

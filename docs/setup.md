@@ -45,6 +45,12 @@ Recommended Mac role:
 
 Also avoid trailing spaces and trailing dots in filenames.
 
+See also:
+
+```text
+07_sync/windows-setup.md
+```
+
 ## 4. WebDAV Setup
 
 Recommended model:

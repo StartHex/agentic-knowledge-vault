@@ -11,10 +11,11 @@ relative_path	absolute_path	modified_at	size_bytes	sha256	title
 04_templates/concept.md	/home/ubuntu/KnowledgeVault/04_templates/concept.md	2026-05-28T15:19:16Z	222	09366a7ce65498df30e94038602f89a41cdc70ef770385e0b41121abf6995422	{{title}}
 04_templates/question.md	/home/ubuntu/KnowledgeVault/04_templates/question.md	2026-05-28T15:19:16Z	165	799ac16bb51e19deecac0e2b2d2ed98c712f336289d859db82dc860c03ee7f2a	{{title}}
 04_templates/source-note.md	/home/ubuntu/KnowledgeVault/04_templates/source-note.md	2026-05-28T15:19:16Z	280	f7d162e4a0b280929c95c86c8027481936026352f7da20a0a276db043f77c0b7	Source - {{title}}
+05_tools/check_windows_compat.sh	/home/ubuntu/KnowledgeVault/05_tools/check_windows_compat.sh	2026-05-29T00:59:27Z	1489	05bdc7bca1cfcb10aa187c3e8a8bcb77efaa9e63ae449f3798b6339cae4728ce	check_windows_compat.sh
 05_tools/export_context.sh	/home/ubuntu/KnowledgeVault/05_tools/export_context.sh	2026-05-28T15:19:16Z	420	4cd210ab00f005817417a5994c8d246da5ed89bfcaa52a43e02feff1c3e0258d	export_context.sh
 05_tools/index_project_docs.sh	/home/ubuntu/KnowledgeVault/05_tools/index_project_docs.sh	2026-05-29T00:55:50Z	4019	22ee822c34ba15516fa386842cebcf97c0d353fcd5e4c4a4e2f75c255a5dbaa5	Project Documentation Index
 05_tools/kb_search.sh	/home/ubuntu/KnowledgeVault/05_tools/kb_search.sh	2026-05-28T15:19:16Z	214	51da629754a7f7eaea475c274b2d59fabd830448482c722d7c2df13a2e1f3971	kb_search.sh
-05_tools/lint_links.sh	/home/ubuntu/KnowledgeVault/05_tools/lint_links.sh	2026-05-28T15:19:16Z	324	af803eff719bef52b9bc1b68e5bd3c14fe1301185405c32616304fda621b4872	lint_links.sh
+05_tools/lint_links.sh	/home/ubuntu/KnowledgeVault/05_tools/lint_links.sh	2026-05-29T00:59:27Z	320	22154ca3206a5b02c83ce1d7e6f877818fddbd1df94a91293c91dbd333805065	lint_links.sh
 05_tools/sync_all.sh	/home/ubuntu/KnowledgeVault/05_tools/sync_all.sh	2026-05-29T00:50:25Z	2278	02962a0ac7c93cbe63d33acff132f0805543114b230cca7652d42c0386dbc179	sync_all.sh
 05_tools/sync_daemon.sh	/home/ubuntu/KnowledgeVault/05_tools/sync_daemon.sh	2026-05-28T16:05:01Z	519	e1a0a4df55d97d0ac6478ceb53de1c005226a6eb20f52ba6c4b41a01967d78de	sync_daemon.sh
 05_tools/webdav_list.sh	/home/ubuntu/KnowledgeVault/05_tools/webdav_list.sh	2026-05-28T15:26:45Z	330	f8473a677c7e7619f227f2e9c15854d760cc5e19c7e3421fb43c71b4b6563f2e	webdav_list.sh
@@ -27,6 +28,7 @@ relative_path	absolute_path	modified_at	size_bytes	sha256	title
 07_sync/mac.env.example	/home/ubuntu/KnowledgeVault/07_sync/mac.env.example	2026-05-28T15:46:04Z	224	fe469233fba6da8de686581efca35256dbb835297e1645f453286e5b0a869f77	Copy this file to `.mac.env` and fill local Mac deployment settings.
 07_sync/sync.env.example	/home/ubuntu/KnowledgeVault/07_sync/sync.env.example	2026-05-29T00:50:25Z	619	ad630a23dfad95c0256753f17ad2fe511ddc0c89201acf112a611577868a35d7	Copy this file to `.sync.env` and fill local settings.
 07_sync/webdav.env.example	/home/ubuntu/KnowledgeVault/07_sync/webdav.env.example	2026-05-28T15:26:45Z	210	b288aee811ed537472f98602ceb623697d56b68fc83379e1f1ad0a97c8c62d96	Copy this file to `.webdav.env` and fill local credentials.
+07_sync/windows-setup.md	/home/ubuntu/KnowledgeVault/07_sync/windows-setup.md	2026-05-29T00:59:27Z	1170	816bfb06a030233ebfbe4d55e44d0ccb8e3ebee2e862a67fb80ff039eaeda04a	Windows Setup
 AGENTS.md	/home/ubuntu/KnowledgeVault/AGENTS.md	2026-05-28T15:43:51Z	4173	e82f3e6fa895d3fa27dba604f5c874183580a202c6318bb1baddb66f7a0b830a	Personal Knowledge Base Agent Protocol
 CLAUDE.md	/home/ubuntu/KnowledgeVault/CLAUDE.md	2026-05-28T15:18:54Z	230	47de4458d685d85ceb14b0ec3a7c6f91a3ffd824e8d7071a0a6be5d58ef26a1b	Claude Code Instructions
 HERMES.md	/home/ubuntu/KnowledgeVault/HERMES.md	2026-05-28T15:34:38Z	388	71a70e681bf78213d4bd817b3c2ea587fae67da94623f1fe4d39afb6113e672a	Hermes Instructions
@@ -35,5 +37,5 @@ OPENCODE.md	/home/ubuntu/KnowledgeVault/OPENCODE.md	2026-05-28T15:34:38Z	392	833
 README.md	/home/ubuntu/KnowledgeVault/README.md	2026-05-28T15:34:38Z	1207	ec913ee2d5619e7141738c0e8cb12791a86c3f93b274f6162d43d785baccd7b7	KnowledgeVault
 docs/agent-integration.md	/home/ubuntu/KnowledgeVault/docs/agent-integration.md	2026-05-28T15:43:56Z	3019	6b219ad81948996f5d5ef3434efdd7afc0aa430d37ad80aa89051e3b5bbe471b	Agent Integration
 docs/design.md	/home/ubuntu/KnowledgeVault/docs/design.md	2026-05-28T15:25:06Z	21791	714dce4a336a995bcb7e3cddb757771eb15490b606553b802afbc65217391737	Codex + Obsidian 个人知识库设计文档
-docs/setup.md	/home/ubuntu/KnowledgeVault/docs/setup.md	2026-05-29T00:50:25Z	3143	0aaed7e24054cb35282464f3024c9bc6a2741f9b58dff2e8fd3fa35fa3023972	Setup Guide
-docs/validation.md	/home/ubuntu/KnowledgeVault/docs/validation.md	2026-05-29T00:50:25Z	1744	29da1e6d7c6a336b337b8a78d756368d2c8ff2f7fc7e7fc604f02d49f34353a1	Validation Guide
+docs/setup.md	/home/ubuntu/KnowledgeVault/docs/setup.md	2026-05-29T00:59:27Z	3192	1fd9fd02377d573cb5d865bc1d0c86216dd5fd53e18a2c81db50668073ea1ef0	Setup Guide
+docs/validation.md	/home/ubuntu/KnowledgeVault/docs/validation.md	2026-05-29T00:59:27Z	1777	d8248e849b9443c803c48562aa38080f766b9b248ee986c9196bbc4f496674f6	Validation Guide

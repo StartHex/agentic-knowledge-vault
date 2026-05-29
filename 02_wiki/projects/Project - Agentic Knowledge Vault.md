@@ -27,6 +27,7 @@ tags: [project, knowledge-base, obsidian, codex]
 - WebDAV sync path: `agentic-knowledge-vault`.
 - Mac deployment path: `/Users/shx/Documents/Obsidian Vault/agentic-knowledge-vault`.
 - Obsidian visual access on Mac.
+- Windows compatibility is enforced through `.gitattributes` and `05_tools/check_windows_compat.sh`.
 
 ## Agent Protocol
 

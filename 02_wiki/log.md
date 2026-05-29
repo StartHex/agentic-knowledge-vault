@@ -18,3 +18,4 @@
 
 - Added generated [[Project Documentation Index]] so project docs, paths, modified times, hashes, and current project root are searchable.
 - Added [[How Should Project Documentation Be Indexed]] to document move handling, indexing limits, and remaining gaps.
+- Added Windows compatibility checks, LF line-ending rules, and Windows setup documentation.

@@ -11,5 +11,4 @@ find 02_wiki -type f -name '*.md' -print0 |
 
 echo
 echo "Potential Windows-incompatible filenames:"
-find . -name '*[<>:"\\|?*]*' -print
-
+05_tools/check_windows_compat.sh
