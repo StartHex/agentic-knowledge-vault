@@ -16,6 +16,7 @@
 
 ## 2026-05-29
 
+- Added native Windows PowerShell compatibility tools for filename/path validation and Markdown encoding normalization.
 - Added UTF-8 normalization tooling for Markdown/text ingest, documented the encoding rule in AGENTS and ingest usage, and verified imported `github-devpor` documents are UTF-8.
 - Added generated [[Project Documentation Index]] so project docs, paths, modified times, hashes, and current project root are searchable.
 - Added [[How Should Project Documentation Be Indexed]] to document move handling, indexing limits, and remaining gaps.

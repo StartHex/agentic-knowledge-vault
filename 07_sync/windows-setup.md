@@ -49,10 +49,18 @@ Recommended options:
 
 ## Validation
 
-Run from Linux or Git Bash:
+Run from PowerShell on Windows:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\05_tools\check_windows_compat.ps1
+powershell -ExecutionPolicy Bypass -File .\05_tools\normalize_markdown_encoding.ps1 -Check .\01_raw
+```
+
+Run from Linux, macOS, WSL, or Git Bash:
 
 ```bash
 05_tools/check_windows_compat.sh
+05_tools/normalize_markdown_encoding.sh --check 01_raw
 ```
 
 The main lint command also includes this check:
@@ -61,3 +69,14 @@ The main lint command also includes this check:
 05_tools/lint_links.sh
 ```
 
+## Encoding
+
+The vault standard is UTF-8 without relying on Windows system locale.
+
+Before importing project Markdown copied from Windows software or older Chinese projects, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\05_tools\normalize_markdown_encoding.ps1 .\00_inbox
+```
+
+The script accepts existing UTF-8 files and converts common GB18030/GBK/GB2312 text files to UTF-8.

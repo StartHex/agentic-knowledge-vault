@@ -31,6 +31,12 @@ To check without modifying files:
 05_tools/normalize_markdown_encoding.sh --check 00_inbox/<file-or-directory>
 ```
 
+On Windows PowerShell, use:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\05_tools\normalize_markdown_encoding.ps1 .\00_inbox
+```
+
 Then ask:
 
 ```text

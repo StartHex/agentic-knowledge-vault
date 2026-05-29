@@ -22,11 +22,13 @@ relative_path	absolute_path	modified_at	size_bytes	sha256	title
 04_templates/concept.md	/home/ubuntu/KnowledgeVault/04_templates/concept.md	2026-05-28T15:19:16Z	222	09366a7ce65498df30e94038602f89a41cdc70ef770385e0b41121abf6995422	{{title}}
 04_templates/question.md	/home/ubuntu/KnowledgeVault/04_templates/question.md	2026-05-28T15:19:16Z	165	799ac16bb51e19deecac0e2b2d2ed98c712f336289d859db82dc860c03ee7f2a	{{title}}
 04_templates/source-note.md	/home/ubuntu/KnowledgeVault/04_templates/source-note.md	2026-05-28T15:19:16Z	280	f7d162e4a0b280929c95c86c8027481936026352f7da20a0a276db043f77c0b7	Source - {{title}}
+05_tools/check_windows_compat.ps1	/home/ubuntu/KnowledgeVault/05_tools/check_windows_compat.ps1	2026-05-29T02:31:11Z	1673	110e6819ba0ba9116e1d1b8e6c8ac038017879be9d5874504b776e80d32de9e1	check_windows_compat.ps1
 05_tools/check_windows_compat.sh	/home/ubuntu/KnowledgeVault/05_tools/check_windows_compat.sh	2026-05-29T00:59:27Z	1489	05bdc7bca1cfcb10aa187c3e8a8bcb77efaa9e63ae449f3798b6339cae4728ce	check_windows_compat.sh
 05_tools/export_context.sh	/home/ubuntu/KnowledgeVault/05_tools/export_context.sh	2026-05-28T15:19:16Z	420	4cd210ab00f005817417a5994c8d246da5ed89bfcaa52a43e02feff1c3e0258d	export_context.sh
-05_tools/index_project_docs.sh	/home/ubuntu/KnowledgeVault/05_tools/index_project_docs.sh	2026-05-29T02:22:21Z	4044	088fd09a1b8db6666d10cfe67a0d0937f65bc0cd65e7395d82d4a52edb457127	Project Documentation Index
+05_tools/index_project_docs.sh	/home/ubuntu/KnowledgeVault/05_tools/index_project_docs.sh	2026-05-29T02:30:43Z	4061	67b291077cec02e45ac3be9a1056c9bff85c07db006573af13f3a716ecf77d99	Project Documentation Index
 05_tools/kb_search.sh	/home/ubuntu/KnowledgeVault/05_tools/kb_search.sh	2026-05-28T15:19:16Z	214	51da629754a7f7eaea475c274b2d59fabd830448482c722d7c2df13a2e1f3971	kb_search.sh
 05_tools/lint_links.sh	/home/ubuntu/KnowledgeVault/05_tools/lint_links.sh	2026-05-29T02:25:52Z	657	ce1843bb553c9831c3bbec84bfc052113289655a2254fb3ccc19f4a9abf91501	lint_links.sh
+05_tools/normalize_markdown_encoding.ps1	/home/ubuntu/KnowledgeVault/05_tools/normalize_markdown_encoding.ps1	2026-05-29T02:31:11Z	1981	8856cc82cae4e9833dab4c9d56c42f47bf3db7b008a556e533868a3dc5cfd5dc	normalize_markdown_encoding.ps1
 05_tools/normalize_markdown_encoding.sh	/home/ubuntu/KnowledgeVault/05_tools/normalize_markdown_encoding.sh	2026-05-29T02:28:08Z	2247	a17d648a6356b1943a93be5600f5a33899d2400184c1de0b8fd596711926ff96	normalize_markdown_encoding.sh
 05_tools/sync_all.sh	/home/ubuntu/KnowledgeVault/05_tools/sync_all.sh	2026-05-29T00:50:25Z	2278	02962a0ac7c93cbe63d33acff132f0805543114b230cca7652d42c0386dbc179	sync_all.sh
 05_tools/sync_daemon.sh	/home/ubuntu/KnowledgeVault/05_tools/sync_daemon.sh	2026-05-28T16:05:01Z	519	e1a0a4df55d97d0ac6478ceb53de1c005226a6eb20f52ba6c4b41a01967d78de	sync_daemon.sh
@@ -40,7 +42,7 @@ relative_path	absolute_path	modified_at	size_bytes	sha256	title
 07_sync/mac.env.example	/home/ubuntu/KnowledgeVault/07_sync/mac.env.example	2026-05-28T15:46:04Z	224	fe469233fba6da8de686581efca35256dbb835297e1645f453286e5b0a869f77	Copy this file to `.mac.env` and fill local Mac deployment settings.
 07_sync/sync.env.example	/home/ubuntu/KnowledgeVault/07_sync/sync.env.example	2026-05-29T00:50:25Z	619	ad630a23dfad95c0256753f17ad2fe511ddc0c89201acf112a611577868a35d7	Copy this file to `.sync.env` and fill local settings.
 07_sync/webdav.env.example	/home/ubuntu/KnowledgeVault/07_sync/webdav.env.example	2026-05-28T15:26:45Z	210	b288aee811ed537472f98602ceb623697d56b68fc83379e1f1ad0a97c8c62d96	Copy this file to `.webdav.env` and fill local credentials.
-07_sync/windows-setup.md	/home/ubuntu/KnowledgeVault/07_sync/windows-setup.md	2026-05-29T00:59:27Z	1170	816bfb06a030233ebfbe4d55e44d0ccb8e3ebee2e862a67fb80ff039eaeda04a	Windows Setup
+07_sync/windows-setup.md	/home/ubuntu/KnowledgeVault/07_sync/windows-setup.md	2026-05-29T02:30:25Z	1861	098c28083dd72a1ef1df5bb4434a469bf0eec02a36922b92e7a967627565106e	Windows Setup
 AGENTS.md	/home/ubuntu/KnowledgeVault/AGENTS.md	2026-05-29T02:25:52Z	4383	5c9df0ed0a85b61c14bbea9be223815d830bbcf94bdcb9c104c6e9cc69f58d5e	Personal Knowledge Base Agent Protocol
 CLAUDE.md	/home/ubuntu/KnowledgeVault/CLAUDE.md	2026-05-28T15:18:54Z	230	47de4458d685d85ceb14b0ec3a7c6f91a3ffd824e8d7071a0a6be5d58ef26a1b	Claude Code Instructions
 HERMES.md	/home/ubuntu/KnowledgeVault/HERMES.md	2026-05-28T15:34:38Z	388	71a70e681bf78213d4bd817b3c2ea587fae67da94623f1fe4d39afb6113e672a	Hermes Instructions
