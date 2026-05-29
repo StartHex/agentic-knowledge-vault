@@ -27,7 +27,7 @@ relative_path	absolute_path	modified_at	size_bytes	sha256	title
 05_tools/index_project_docs.sh	/home/ubuntu/KnowledgeVault/05_tools/index_project_docs.sh	2026-05-29T02:22:21Z	4044	088fd09a1b8db6666d10cfe67a0d0937f65bc0cd65e7395d82d4a52edb457127	Project Documentation Index
 05_tools/kb_search.sh	/home/ubuntu/KnowledgeVault/05_tools/kb_search.sh	2026-05-28T15:19:16Z	214	51da629754a7f7eaea475c274b2d59fabd830448482c722d7c2df13a2e1f3971	kb_search.sh
 05_tools/lint_links.sh	/home/ubuntu/KnowledgeVault/05_tools/lint_links.sh	2026-05-29T02:25:52Z	657	ce1843bb553c9831c3bbec84bfc052113289655a2254fb3ccc19f4a9abf91501	lint_links.sh
-05_tools/normalize_markdown_encoding.sh	/home/ubuntu/KnowledgeVault/05_tools/normalize_markdown_encoding.sh	2026-05-29T02:25:29Z	1389	5589ad846ef5b6976b988a9ba69c02c3042747c345b69f983b2a0b6d67d03a4c	normalize_markdown_encoding.sh
+05_tools/normalize_markdown_encoding.sh	/home/ubuntu/KnowledgeVault/05_tools/normalize_markdown_encoding.sh	2026-05-29T02:28:08Z	2247	a17d648a6356b1943a93be5600f5a33899d2400184c1de0b8fd596711926ff96	normalize_markdown_encoding.sh
 05_tools/sync_all.sh	/home/ubuntu/KnowledgeVault/05_tools/sync_all.sh	2026-05-29T00:50:25Z	2278	02962a0ac7c93cbe63d33acff132f0805543114b230cca7652d42c0386dbc179	sync_all.sh
 05_tools/sync_daemon.sh	/home/ubuntu/KnowledgeVault/05_tools/sync_daemon.sh	2026-05-28T16:05:01Z	519	e1a0a4df55d97d0ac6478ceb53de1c005226a6eb20f52ba6c4b41a01967d78de	sync_daemon.sh
 05_tools/webdav_list.sh	/home/ubuntu/KnowledgeVault/05_tools/webdav_list.sh	2026-05-28T15:26:45Z	330	f8473a677c7e7619f227f2e9c15854d760cc5e19c7e3421fb43c71b4b6563f2e	webdav_list.sh

@@ -1,7 +1,7 @@
 ---
 type: project-index
 status: generated
-updated: 2026-05-29T02:25:52Z
+updated: 2026-05-29T02:28:08Z
 tags: [project, documentation, generated-index]
 ---
 
@@ -22,7 +22,7 @@ Mac vault: shx@10.106.106.5:/Users/shx/Documents/Obsidian Vault/agentic-knowledg
 
 ## Index State
 
-Latest indexed document modification time: 2026-05-29T02:25:52Z
+Latest indexed document modification time: 2026-05-29T02:28:08Z
 
 ## Update Rule
 
@@ -70,7 +70,7 @@ If the project directory moves, rerun the script from the new repository root. `
 | `05_tools/index_project_docs.sh` | 2026-05-29T02:22:21Z | 4044 | `088fd09a1b8d` | Project Documentation Index |
 | `05_tools/kb_search.sh` | 2026-05-28T15:19:16Z | 214 | `51da629754a7` | kb_search.sh |
 | `05_tools/lint_links.sh` | 2026-05-29T02:25:52Z | 657 | `ce1843bb553c` | lint_links.sh |
-| `05_tools/normalize_markdown_encoding.sh` | 2026-05-29T02:25:29Z | 1389 | `5589ad846ef5` | normalize_markdown_encoding.sh |
+| `05_tools/normalize_markdown_encoding.sh` | 2026-05-29T02:28:08Z | 2247 | `a17d648a6356` | normalize_markdown_encoding.sh |
 | `05_tools/sync_all.sh` | 2026-05-29T00:50:25Z | 2278 | `02962a0ac7c9` | sync_all.sh |
 | `05_tools/sync_daemon.sh` | 2026-05-28T16:05:01Z | 519 | `e1a0a4df55d9` | sync_daemon.sh |
 | `05_tools/webdav_list.sh` | 2026-05-28T15:26:45Z | 330 | `f8473a677c7e` | webdav_list.sh |

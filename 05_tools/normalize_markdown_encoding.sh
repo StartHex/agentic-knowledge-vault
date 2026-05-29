@@ -29,12 +29,52 @@ fi
 
 status=0
 
+python_normalize_file() {
+  local file="$1"
+  local mode="$2"
+
+  python3 - "$file" "$mode" <<'PY'
+import sys
+from pathlib import Path
+
+path = Path(sys.argv[1])
+mode = sys.argv[2]
+data = path.read_bytes()
+
+try:
+    data.decode("utf-8")
+    print(f"utf8: {path}")
+    raise SystemExit(0)
+except UnicodeDecodeError:
+    if mode == "check":
+        print(f"non-utf8: {path}")
+        raise SystemExit(1)
+
+try:
+    text = data.decode("gb18030")
+except UnicodeDecodeError:
+    print(f"unsupported-encoding: {path}", file=sys.stderr)
+    raise SystemExit(1)
+
+path.write_text(text, encoding="utf-8", newline="")
+print(f"converted-gb18030-to-utf8: {path}")
+PY
+}
+
 normalize_file() {
   local file="$1"
   local tmp
 
   if [[ ! -f "$file" ]]; then
     echo "missing: $file" >&2
+    status=1
+    return
+  fi
+
+  if command -v python3 >/dev/null 2>&1; then
+    if python_normalize_file "$file" "$([[ "$check_only" == "true" ]] && echo check || echo convert)"; then
+      return
+    fi
     status=1
     return
   fi
