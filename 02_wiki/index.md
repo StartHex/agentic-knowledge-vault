@@ -20,6 +20,7 @@
 - [[Conversation Capture Workflow]]
 - [[How Should Agent Changes Be Synchronized]]
 - [[How Should Project Documentation Be Indexed]]
+- [[How Should I Search the Knowledge Base]]
 
 ## Syntheses
 
