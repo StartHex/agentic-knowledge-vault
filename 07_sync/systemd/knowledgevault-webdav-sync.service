@@ -1,0 +1,9 @@
+[Unit]
+Description=KnowledgeVault WebDAV push
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ubuntu/KnowledgeVault
+ExecStart=/usr/bin/env bash -lc '05_tools/webdav_push.sh'

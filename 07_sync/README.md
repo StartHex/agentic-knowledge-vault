@@ -52,6 +52,27 @@ Requirements:
 - `curl`
 - `jq`
 
+## Linux WebDAV Auto Push
+
+For a headless Linux server that should only push this vault to WebDAV, install the user-level systemd units:
+
+```bash
+mkdir -p ~/.config/systemd/user
+cp 07_sync/systemd/knowledgevault-webdav-sync.* ~/.config/systemd/user/
+systemctl --user daemon-reload
+systemctl --user enable --now knowledgevault-webdav-sync.timer
+loginctl enable-linger "$USER"
+```
+
+Check status with:
+
+```bash
+systemctl --user list-timers knowledgevault-webdav-sync.timer
+systemctl --user status knowledgevault-webdav-sync.service
+```
+
+This timer runs `05_tools/webdav_push.sh` every 10 minutes. It does not run Git sync or direct Mac SSH sync.
+
 ## Mac Sync
 
 Use:

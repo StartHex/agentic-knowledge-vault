@@ -16,6 +16,18 @@ fi
 : "${WEBDAV_PASS:?Set WEBDAV_PASS}"
 
 root_url="${WEBDAV_URL%/}"
+curl_config="$(mktemp)"
+chmod 600 "$curl_config"
+
+curl_config_value() {
+  sed 's/\\/\\\\/g; s/"/\\"/g' <<<"$1"
+}
+
+printf 'user = "%s:%s"\n' \
+  "$(curl_config_value "$WEBDAV_USER")" \
+  "$(curl_config_value "$WEBDAV_PASS")" >"$curl_config"
+
+trap 'rm -f "$curl_config"' EXIT
 
 url_path() {
   local path="$1"
@@ -42,7 +54,7 @@ mkcol() {
   local url="$1"
   local status
   status="$(curl -sS -o /dev/null -w "%{http_code}" \
-    -u "$WEBDAV_USER:$WEBDAV_PASS" \
+    --config "$curl_config" \
     -X MKCOL \
     "$url")"
 
@@ -56,7 +68,7 @@ put_file() {
   local path="$1"
   local url="$root_url/$(url_path "$path")"
   curl -fsS \
-    -u "$WEBDAV_USER:$WEBDAV_PASS" \
+    --config "$curl_config" \
     --upload-file "$path" \
     "$url" >/dev/null
 }
