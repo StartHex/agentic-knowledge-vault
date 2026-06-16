@@ -17,6 +17,8 @@
 
 ## Domains
 
+- [[AI News Dashboard]] — AI 新闻、教程雷达和创作灵感入口
+
 ## Questions
 
 - [[Automatic Conversation Capture]]
