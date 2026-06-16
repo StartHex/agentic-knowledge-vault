@@ -24,6 +24,7 @@
 
 - [[Automatic Conversation Capture]]
 - [[Conversation Capture Workflow]]
+- [[How Should I Use The Knowledge Base As Copywriting Assistant]]
 - [[How Should Agent Changes Be Synchronized]]
 - [[How Should Project Documentation Be Indexed]]
 - [[How Should I Search the Knowledge Base]]
@@ -35,6 +36,7 @@
 - [[Agent Role Policy 2026-05-28]] — 分层 agent 权限策略（maintainer / editor / reader）
 - [[AI Tutorial Editing Playbook]] — AI 教程剪辑结构、节奏和复用模板
 - [[AI Tutorial Psychology Playbook]] — AI 教程选题、钩子和传播心理框架
+- [[AI Tutorial Copywriting Playbook]] — 高热视频和文案文章的可复用文案蒸馏规则
 
 ## Source Notes
 

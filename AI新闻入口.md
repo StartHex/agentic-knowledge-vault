@@ -15,6 +15,8 @@ AI 新闻、教程雷达、创作灵感和运行记录入口。
 - 创作灵感：[[AI新闻入口#Creator Ideas]]
 - 教程剪辑技巧：[[AI Tutorial Editing Playbook]]
 - 教程心理学框架：[[AI Tutorial Psychology Playbook]]
+- 文案蒸馏与助手：[[AI Tutorial Copywriting Playbook]]
+- 知识库文案助手用法：[[How Should I Use The Knowledge Base As Copywriting Assistant]]
 
 ## Graph Notes
 

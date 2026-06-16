@@ -67,6 +67,8 @@ AI Creator Knowledge System is a planned workflow for collecting AI news and tut
 
 - [[AI Tutorial Editing Playbook]] — reusable editing structures for turning AI news/tutorial items into watchable practical content.
 - [[AI Tutorial Psychology Playbook]] — audience psychology, persuasion principles, and topic-selection lenses for AI tutorial content.
+- [[AI Tutorial Copywriting Playbook]] — reusable hook, structure, proof, and CTA patterns distilled from high-performing videos and copywriting articles.
+- [[How Should I Use The Knowledge Base As Copywriting Assistant]] — operating workflow for turning the vault into a script/article assistant.
 
 These pages should be used when reviewing collected tutorials from large creators: extract the repeatable mechanism, link the source note, and adapt the lesson into the account's own AI handbook format.
 
