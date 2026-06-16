@@ -14,6 +14,11 @@ AI 新闻、教程雷达、创作灵感和运行记录入口。
 - 教程候选：[[AI新闻入口#Tutorial Review]]
 - 创作灵感：[[AI新闻入口#Creator Ideas]]
 
+## Graph Notes
+
+- [[AI采集日报 2026-06-16]]
+- [[AI采集日报 2026-06-15]]
+
 ## Daily Reports
 
 - [2026-06-16-tutorial-radar.md](03_outputs/ai-news/ai-daily/2026-06-16-tutorial-radar.md)
