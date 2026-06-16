@@ -22,6 +22,8 @@ GIT_SYNC_ENABLED="${GIT_SYNC_ENABLED:-true}"
 WEBDAV_SYNC_ENABLED="${WEBDAV_SYNC_ENABLED:-false}"
 MAC_SYNC_ENABLED="${MAC_SYNC_ENABLED:-false}"
 DOC_INDEX_ENABLED="${DOC_INDEX_ENABLED:-true}"
+AI_NEWS_DAILY_ENABLED="${AI_NEWS_DAILY_ENABLED:-false}"
+AI_NEWS_DRY_RUN="${AI_NEWS_DRY_RUN:-false}"
 
 if [[ "$SYNC_ENABLED" != "true" ]]; then
   echo "Sync disabled. Set SYNC_ENABLED=true in .sync.env to enable."
@@ -29,6 +31,13 @@ if [[ "$SYNC_ENABLED" != "true" ]]; then
 fi
 
 echo "Sync enabled. Interval setting: ${SYNC_INTERVAL_SECONDS}s"
+
+if [[ "$AI_NEWS_DAILY_ENABLED" == "true" ]]; then
+  echo "Running AI news daily flow into this vault"
+  AI_NEWS_DRY_RUN="$AI_NEWS_DRY_RUN" 05_tools/ai_news_daily.sh
+else
+  echo "AI news daily flow disabled; skipping"
+fi
 
 if [[ "$DOC_INDEX_ENABLED" == "true" ]]; then
   echo "Updating project documentation index"

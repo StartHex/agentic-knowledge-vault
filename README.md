@@ -38,6 +38,15 @@ Run maintenance:
 对 02_wiki 做一次 lint，找重复、孤立、冲突和缺失链接。
 ```
 
+Run the AI news and creator inspiration workflow into this vault:
+
+```bash
+05_tools/ai_news_daily.sh --date today
+05_tools/sync_all.sh
+```
+
+`05_tools/ai_news_daily.sh` uses `~/AINewsTutorialSys` as the collector/processor engine, writes AI handbook pages under `02_wiki/`, and mirrors generated reports under `03_outputs/ai-news/`. Cross-device sync remains owned by the vault-level `05_tools/sync_all.sh`; the AI news workflow disables its own Mac/WebDAV sync when run through the vault wrapper.
+
 ## Repository Policy
 
 - Keep raw sources in `01_raw/`.
