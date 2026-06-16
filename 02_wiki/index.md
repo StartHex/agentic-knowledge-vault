@@ -33,6 +33,8 @@
 
 - [[hermes-vault-setup-2026-05-28]] — Hermes Agent 接入知识库的配置记录
 - [[Agent Role Policy 2026-05-28]] — 分层 agent 权限策略（maintainer / editor / reader）
+- [[AI Tutorial Editing Playbook]] — AI 教程剪辑结构、节奏和复用模板
+- [[AI Tutorial Psychology Playbook]] — AI 教程选题、钩子和传播心理框架
 
 ## Source Notes
 

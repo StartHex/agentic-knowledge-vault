@@ -63,6 +63,13 @@ AI Creator Knowledge System is a planned workflow for collecting AI news and tut
 - The system outputs daily AI briefs, tutorial radar reports, creator ideas, manual update suggestions, monetization hypotheses, today action plans, and pipeline status reports.
 - The final system also includes weekly content/manual/monetization reviews, account performance feedback, outdated content detection, merge/delete/recovery workflows, and monetization opportunity reports.
 
+## Creator Craft Knowledge
+
+- [[AI Tutorial Editing Playbook]] — reusable editing structures for turning AI news/tutorial items into watchable practical content.
+- [[AI Tutorial Psychology Playbook]] — audience psychology, persuasion principles, and topic-selection lenses for AI tutorial content.
+
+These pages should be used when reviewing collected tutorials from large creators: extract the repeatable mechanism, link the source note, and adapt the lesson into the account's own AI handbook format.
+
 ## Repository Status
 
 - 2026-06-15: Prepared a local Git repository with README, architecture design, development plan, starter config, and JSON schemas.

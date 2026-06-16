@@ -13,6 +13,8 @@ AI 新闻、教程雷达、创作灵感和运行记录入口。
 - 新闻候选和复盘：[[AI新闻入口#News Review]]
 - 教程候选：[[AI新闻入口#Tutorial Review]]
 - 创作灵感：[[AI新闻入口#Creator Ideas]]
+- 教程剪辑技巧：[[AI Tutorial Editing Playbook]]
+- 教程心理学框架：[[AI Tutorial Psychology Playbook]]
 
 ## Graph Notes
 
